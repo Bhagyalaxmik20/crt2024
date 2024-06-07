@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+    for(i=1;i<=5;i++)
+    {
+        printf("%d\n",i);
+        if(i%2==0)
+        
+        printf("python\n");
+        printf("java\n");
+    }
+
+    return 0;
+}
+output: 
+1
+java
+2
+python
+java
+3
+java
+4
+python
+java
+5
+java
