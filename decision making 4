@@ -8,7 +8,7 @@ public class Solution {
     public static void main(String args[] ) throws Exception {
          Scanner s=new Scanner(System.in);
         int n=s.nextInt();
-            for(int i=1;i<n;i++)
+            for(int i=1;i<=n;i++)
             {
                 int a=s.nextInt();
                 char c=s.next().charAt(0);
@@ -17,6 +17,7 @@ public class Solution {
                 {
                     if(a>b)
                         System.out.println("Right");
+                     else
                         System.out.println("Wrong");
                 }
                 else if(c=='<')
