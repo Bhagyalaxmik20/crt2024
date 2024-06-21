@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+              int a,l,b;
+              float r;
+                  a=s.nextInt();
+                  l=s.nextInt();
+                  b=s.nextInt();
+                  r=s.nextFloat();
+        int r1=a*a;
+                System.out.println(r1);
+        int r2=l*b;
+                System.out.println(r2);
+        double r3=3.14*r*r;
+               System.out.printf("%.2f",r3);
+    }
+}
+Input (stdin)
+
+5
+5
+4
+2.0	
+Your Output (stdout)
+
+25
+20
+12.56
